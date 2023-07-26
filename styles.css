@@ -19,20 +19,26 @@ body{
 	text-align:center;
 	padding:10px;
 }
-.Latest-news-Articles{
+.latest-news-section{
 	text-align:center;
 	display:flex;
     flex:1;
+	width:100%;
+	background-color:white;
 	flex-direction:column;
 }
 .Main-Article-Section{
 	flex:2;
+	text-align:center;
 	flex-direction:column;
+	width:100%;
 }
-.Pictorial-News-Section{
+.pictorial-news-section{
 	flex:1;
+	text-align:center;
 	flex-direction:column;
+	width:100%;
 }
-.Pictorial-News-Section>img{
+.pictorial-news-section>img{
 	margin:5px;
 }
