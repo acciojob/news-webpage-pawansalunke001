@@ -1,1 +1,38 @@
 /*  your css code here. If applicable */
+body{
+	background-color: #f5f5f5;
+}
+.container{
+	display:flex;
+	justify-content:center;
+}
+.container>div{
+	background-color:white;
+	border-radius:20px;
+	margin:10px;
+	padding:10px;
+	
+}
+.shaw{
+	background-color : #011e29;
+	color :white;
+	text-align:center;
+	padding:10px;
+}
+.Latest-news-Articles{
+	text-align:center;
+	display:flex;
+    flex:1;
+	flex-direction:column;
+}
+.Main-Article-Section{
+	flex:2;
+	flex-direction:column;
+}
+.Pictorial-News-Section{
+	flex:1;
+	flex-direction:column;
+}
+.Pictorial-News-Section>img{
+	margin:5px;
+}
